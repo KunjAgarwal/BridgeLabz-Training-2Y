@@ -6,7 +6,6 @@ public class KmToMiles {
         System.out.print("Enter distance in kilometers: ");
         double kilometers = sc.nextDouble();
 
-        // Conversion formula from image
         double miles = kilometers * 0.621371;
 
         System.out.println(kilometers + " kilometers is equal to " + miles + " miles.");
